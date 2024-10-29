@@ -11,7 +11,9 @@ public class Soal03 {
 		int V = s.nextInt();
 
 		int jumlah = M + V;
+		int jml = jumlah % 60;
+		int jam = jumlah /60;
 
-		System.out.println(H, jumlah);
+		System.out.print( H + jam + ":" + jml);
 	}
 }
